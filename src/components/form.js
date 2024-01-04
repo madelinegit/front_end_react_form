@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './form.css';
 
 export const ContactForm = () => {
 
@@ -41,11 +42,11 @@ export const ContactForm = () => {
                     value ={email}
                     onChange={(e) => setEmail(e.target.value)}/>
                 </div>
-                <button type="submit" className="submitButton">
+                <button type="submit">
                     Submit
                 </button>
             </form>
-            {message && <p>{message}</p>}
+            {message && <i className="formMessage">{message}</i>}
         </div>
     </>
     );

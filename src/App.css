@@ -3,7 +3,7 @@
   text-align: center;
   padding: 5vh 0 10vh 0;
   display: flex;
-  flex-direction: wrap;
+  flex-wrap: wrap;
 
 }
 
@@ -14,13 +14,17 @@
   align-items: center;
   justify-content: center;
   align-items: center;
-  /* color: #4d4a4f; */
 }
 
 .halfContainer {
   flex: 1;
+  min-width: 300px;
   max-width: 30vw;
+  /* min-width: 30vw; */
+
 }
-.Box {
-  background-color: #AA000a;
-}
+
+
+/* .Box { */
+  /* background-color: #AA000a; */
+/* } */
