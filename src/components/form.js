@@ -21,7 +21,7 @@ export const ContactForm = () => {
         <div className="contact-form">
             <h2>Purus Nallam Arcu Integer</h2>
             <p>
-            Elementum nisi ac volupat vestibulum enim mi tincidunt eros sed justo<br></br>
+            Elementum nisi ac volupat vestibulum enim mi tincidunt eros sed justo
             magna odio sed lactus ut non ante sit amet est luctus dictrum ut dolor
             ac.
             </p>
