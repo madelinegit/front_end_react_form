@@ -1,7 +1,7 @@
 body {
   margin: 0;
   /* min-width: 100%; */
-  padding: 0vh 15vh 0 15vh;
+  /* padding: 0vh 15vh 0 15vh; */
   color: #4d4a4f;
   background-color: #f0f0f0;
   display: flex;
@@ -15,7 +15,26 @@ body {
   /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
 }
+/* Smaller screens */
+@media (max-width: 768px) {
+  body {
+    /* Reduced spacing for smaller screens */
+  }
+}
 
+/* Larger screens or before wrapping */
+@media (min-width: 768px) {
+  body {
+    margin: 3em;
+    /* Increased spacing for larger screens or unstacked layout */
+  }
+}
+
+p {
+  size: .75em;
+  margin: 0;
+  /* padding:0; */
+}
 
 /* original code from my-app doesnt seem to do anything here */
 /* code { */
@@ -30,3 +49,7 @@ body {
 /* -webkit-font-smoothing: antialiased; */
 /* -moz-osx-font-smoothing: grayscale; */
 /* } */
+
+.halfContainer {
+  padding-bottom: 3em;
+}

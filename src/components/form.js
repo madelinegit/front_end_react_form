@@ -19,7 +19,8 @@ export const ContactForm = () => {
     return (
         <>
         <div className="contact-form">
-            <p>Purus Nallam Arcu Integer</p>
+            <p class="contact-form-head">Purus Nallam Arcu Integer</p>
+            <br></br>
             <p>
             Elementum nisi ac volupat vestibulum enim mi tincidunt eros sed justo
             magna odio sed lactus ut non ante sit amet est luctus dictrum ut dolor
@@ -44,7 +45,7 @@ export const ContactForm = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 />
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit">SUBMIT</button>
             </form>
             {message && <i className="formMessage">{message}</i>}
         </div>

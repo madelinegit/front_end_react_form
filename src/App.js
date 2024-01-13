@@ -12,14 +12,14 @@ function App() {
           <p>Enrim Eleifend dignissim bibendum</p>
           <p class= "header">Id Trisque Id Metus Nulla</p>
         </header>
-    </div>
+</div>
 
      {/* body is not a child of App */}
 
     <body>
 
         <div className = "halfContainer">
-          <div className="Box"><ContactInfo></ContactInfo></div>
+          <ContactInfo></ContactInfo>
         </div>
 
         <div className = "halfContainer">
@@ -27,7 +27,7 @@ function App() {
         </div>
 
     </body>
-
+{/* </div> */}
     </>
   );
 }
