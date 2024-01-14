@@ -27,6 +27,7 @@ export const ContactForm = () => {
             ac.
             </p>
             <form onSubmit={handleSubmit}>
+            <div>
             <div className="input-group">
                 <input
                 type="text"
@@ -44,6 +45,7 @@ export const ContactForm = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 />
+            </div>
             </div>
             <button type="submit">SUBMIT</button>
             </form>

@@ -2,10 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    /* justify-content: space-around; */
-
 }
-
 .info-box, .info-box1 {
   background-color: #fff;
   border: none;
@@ -17,14 +14,9 @@
 .info-box {
   margin-top: 2em;
 }
-
 a {
   text-decoration: none;
   color: #6495ed;
-}
-
-p {
-    /* margin:0; */
 }
 .emoji {
   font-size: 2em;
@@ -33,6 +25,4 @@ p {
 }
 .info-text {
     align-items: center;
-
   }
-  
